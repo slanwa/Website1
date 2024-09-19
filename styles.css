@@ -1,0 +1,472 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* Header styles */
+header {
+  background: #004d99; /* Dark blue background */
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Gold color on hover */
+}
+
+/* Section styles */
+section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Service section */
+.service {
+  background: #e6e6e6;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  margin-top: 0;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background: #004d99;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #003366;
+}
+/* Partners section */
+#partners {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.partner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.partner img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Case Studies section */
+#case-studies {
+  background: #fff;
+  padding: 20px;
+}
+
+.case-study {
+  margin-bottom: 20px;
+}
+
+.case-study h3 {
+  margin-top: 0;
+}
+
+.case-study a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+.case-study a:hover {
+  text-decoration: underline;
+}
+
+/* Portfolio section */
+#portfolio {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.portfolio-item {
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.portfolio-item h3 {
+  margin-top: 10px;
+}
+
+/* Blog section */
+#blog {
+  background: #fff;
+  padding: 20px;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+}
+
+.blog-post h3 {
+  margin-top: 0;
+}
+
+.blog-post a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media section */
+#social-media {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+#social-media ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#social-media ul li a img {
+  width: 30px;
+  height: auto;
+}
+/* Testimonials section */
+#testimonials {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.testimonial {
+  background: #fff;
+  border-left: 5px solid #004d99;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Subscribe section */
+#subscribe {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#subscribe form {
+  display: inline-block;
+}
+
+#subscribe label {
+  margin-right: 10px;
+}
+
+#subscribe input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#subscribe button {
+  background: #004d99;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#subscribe button:hover {
+  background: #003366;
+}
+
+/* FAQ Expanded section */
+#faq-expanded {
+  background: #fff;
+  padding: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+}
+
+/* Event Registration section */
+#event-registration {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+#event-registration form {
+  display: flex;
+  flex-direction: column;
+}
+
+#event-registration label {
+  margin-bottom: 5px;
+}
+
+#event-registration input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#event-registration button {
+  background: #004d99;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#event-registration button:hover {
+  background: #003366;
+}
+/* Feedback section */
+#feedback {
+  background: #fff;
+  padding: 20px;
+}
+
+#feedback form {
+  display: flex;
+  flex-direction: column;
+}
+
+#feedback label {
+  margin-bottom: 5px;
+}
+
+#feedback input, #feedback textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#feedback button {
+  background: #004d99;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#feedback button:hover {
+  background: #003366;
+}
+
+/* Careers section */
+#careers {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+#careers ul {
+  list-style: none;
+  padding: 0;
+}
+
+#careers ul li {
+  margin-bottom: 10px;
+}
+
+#careers ul li a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+#careers ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Resources section */
+#resources {
+  background: #fff;
+  padding: 20px;
+}
+
+#resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+#resources ul li {
+  margin-bottom: 10px;
+}
+
+#resources ul li a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+#resources ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Blog Archive section */
+#blog-archive {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+#blog-archive ul {
+  list-style: none;
+  padding: 0;
+}
+
+#blog-archive ul li {
+  margin-bottom: 10px;
+}
+
+#blog-archive ul li a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+#blog-archive ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Address section */
+#contact-address {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Back to Top button */
+#back-to-top {
+  background: #004d99;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#back-to-top a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#back-to-top a:hover {
+  text-decoration: underline;
+}
